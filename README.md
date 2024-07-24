@@ -1,2 +1,6 @@
-# Masters_Thesis
-The thesis primarily focuses on the comparative longitudinal data analysis of the multimodal OASIS-3 dataset, utilizing statistical and machine learning algorithms to predict the early diagnosis of Alzheimer's Disease.
+The thesis primarily focuses on the comparative longitudinal data analysis of the multimodal OASIS-3 dataset, utilizing statistical and machine learning algorithms to predict the early diagnosis of Alzheimer's Disease. In this work, non-imaging OASIS-3 datasets, including demographics, cognitive assessments, and scan outputs (MRI & PET), were combined to create a comprehensive multimodal approach. Days From Entry and subject ID variables were used to identify potential risk factors of Alzheimer's Disease. Given the large number of features due to the multimodal aspect, several data pre-processing steps were employed to select features influencing the severity of dementia status. In that respect, Minimum Redundancy and Maximum Relevance ensemble (mRMRe) feature selection was used along with other elimination algorithms.
+
+In the analysis, several statistical models, including Generalized Estimation Equations, Generalized Mixed Effect Models (both frequentist and Bayesian), and the Ordinal Mixed Effect Random Forest (OMERF) machine learning algorithm, were utilized. The OMERF model was slightly revised to be applicable for random intercept models, maintaining the same formulation across all statistical models. 
+
+For the original work of the OMERF algorithm, kindly refer to the following article:
+Bergonzoli, G., Rossi, L., & Masci, C. (2024). Ordinal Mixed-Effects Random Forest.
